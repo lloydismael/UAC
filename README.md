@@ -26,6 +26,7 @@ Execute the UAC with the desired profile and destination directory
 
 Go to directory where you store the file from the repository (for example Downloads)
 > cd
+
 > cd Downloads
 
 use curl to download the latest release on the GitHub repository
@@ -36,6 +37,9 @@ move the file to root
 
 elevate access and go to root directory
 > sudo -i
+
 > tar -xzf uac-3.0.0.tar.gz
+
 > cd uac-3.0.0.0
+
 > ./uac -p ir_triage /tmp
